@@ -45,8 +45,3 @@ jobs:
         git push
       env:
         GITHUB_TOKEN: ${{ secrets.GHP_TOKEN }}
-    - name: Deploy
-      uses: peaceiris/actions-gh-pages@v4
-      with:
-        github_token: ${{ secrets.GHP_TOKEN }}
-        publish_dir: ./data
