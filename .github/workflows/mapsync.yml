@@ -25,7 +25,7 @@ jobs:
 
     - name: Download KMZ file
       run: |
-        URL="https://www.google.com/maps/d/kml?mid=103ngIYVR56ypc1eJp_4FntEU0Nc&cid=mp&cv=qNGi_t2KHPo.zh_CN"
+        URL="https://www.google.com/maps/d/kml?mid=mid=1GkDHfCOTV4oes0EMZGx1CeLOrLS6-hc&nl=1&lid=bJw5v_6Cj9U&cid=mp&cv=5EpEEGy2YmA.zh_CN"
         OUTPUT_FILE="downloaded_file.kmz"
         curl -o $OUTPUT_FILE $URL
       shell: bash
