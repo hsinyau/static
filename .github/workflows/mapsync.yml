@@ -45,15 +45,8 @@ jobs:
         git push
       env:
         GITHUB_TOKEN: ${{ secrets.GHP_TOKEN }}
-
-  deploy:
-    runs-on: ubuntu - latest
-    needs: download_and_convert
-    steps:
-    - name: Checkout
-      uses: actions/checkout@v2
-    - name: Deploy to GitHub Pages
-      uses: peaceiris/actions - github - pages@v3
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v4
       with:
         github_token: ${{ secrets.GHP_TOKEN }}
-        publish_dir: data
+        publish_dir: ./data
