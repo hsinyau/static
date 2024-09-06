@@ -36,12 +36,10 @@ jobs:
         python convert_kmz_to_geojson.py downloaded_file.kmz data/geojson.json
       shell: bash
     # 提交到代码库里。
-    - name: Commit and push converted GeoJSON
-      run: |
-        git config --global user.name 'github-actions'
-        git config --global user.email 'github-actions@github.com'
-        git add data/geojson.json
-        git commit -m 'Automated commit of converted GeoJSON'
-        git push
-      env:
-        GHP_TOKEN: ${{ secrets.GHP_TOKEN }}
+    - name: Deploy to GitHub Pages
+      uses: JamesIves/github-pages-deploy-action@3.7.1
+      with:
+        ACCESS_TOKEN: ${{ secrets.GHP_TOKEN }}
+        BRANCH: gh-pages # The branch the action should deploy to.
+        FOLDER: dist # The folder the action should deploy.
+        CLEAN: true # Automatically remove deleted files from the deploy branch
