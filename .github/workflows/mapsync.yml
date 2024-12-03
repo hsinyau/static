@@ -33,7 +33,7 @@ jobs:
     - name: Convert KMZ to GeoJSON
       run: |
         mkdir -p data
-        python convert_kmz_to_geojson.py downloaded_file.kmz data/geo.json
+        python ./scripts/convert_kmz_to_geojson.py downloaded_file.kmz data/geo.json
       shell: bash
 
     - name: Commit and push converted GeoJSON
