@@ -173,11 +173,6 @@ jobs:
 
     - name: Download NeoDB Cover
       run: |
-        # 检查 movie 目录是否存在，如果不存在则创建
-        if [ ! -d "neodb" ]; then
-          mkdir neodb
-        fi
-
         # 读取本地的 neodb.json 文件内容
         json=$(cat neodb/neodb.json)
 
