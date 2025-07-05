@@ -1,5 +1,35 @@
 [
   {
+    "title": "阿尔托的冒险",
+    "description": "Join Alto and his friends as they embark on an endless snowboarding odyssey. Journey across the beautiful alpine hills of their native wilderness, through neighbouring villages, ancient woodlands, and long-abandoned ruins.\r\n\r\nAlong the way you'll rescue runaway llamas, grind rooftops, leap over terrifying chasms and outwit the mountain elders – all while braving the ever changing elements and passage of time upon the mountain.\r\n\r\nFeatures:\r\n\r\n• Fluid, graceful and exhilarating physics-based gameplay\r\n\r\n• Procedurally generated terrain based on real-world snowboarding\r\n\r\n• Fully dynamic lighting and weather effects, including thunderstorms, blizzards, fog, rainbows, shooting stars, and more\r\n\r\n• Easy to learn, difficult to master one button trick system\r\n\r\n• Chain together combos to maximize points and speed\r\n\r\n• Test your skills with 180 handcrafted goals\r\n\r\n• Discover six unique snowboarders, each with their own special attributes and abilities\r\n\r\n• Challenge your friends with Game Center. Compete for best high score, best distance, and best trick combo!\r\n\r\n• Acquire the wingsuit from Izel’s workshop for an entirely new gameplay dynamic\r\n\r\n• Beautifully minimalist and evocative visual design\r\n\r\n• Original music and handcrafted audio for an ambient and immersive experience (headphones recommended!)\r\n\r\n• Universal app with iCloud support. Play on your iPhone and iPad and your progress will always be in sync.\r\n\r\nAlto’s Adventure is a premium game with no ads or in-app purchases.",
+    "category": "game",
+    "type": "Game",
+    "uuid": "0KddkQ8G3HbgZPdsCIRoyA",
+    "rating": 8.6,
+    "rating_count": 65,
+    "cover_image_url": "https://neodb.social/m/item/doubangame/2024/07/16/ea28db9c-fc14-4eb8-b7fc-630e2601368e.jpg",
+    "external_resources": [
+      {
+        "url": "https://www.douban.com/game/26384692/"
+      }
+    ]
+  },
+  {
+    "title": "霓虹深渊",
+    "description": "你的每一次冒险都会拓展游戏的内容，你的每一次选择都会影响游戏的规则。你的每一次重生也意味着离目标更近一步：找到解除诅咒的灵药。",
+    "category": "game",
+    "type": "Game",
+    "uuid": "5nXuc6eBoEoHxGgiT4YukK",
+    "rating": 7.4,
+    "rating_count": 23,
+    "cover_image_url": "https://neodb.social/m/item/doubangame/2024/07/16/a7ab5173-c8b4-4098-88c1-8f2c16bbbdce.jpg",
+    "external_resources": [
+      {
+        "url": "https://www.douban.com/game/34438576/"
+      }
+    ]
+  },
+  {
     "title": "文明6",
     "description": "最早由传奇游戏设计大师席德·梅尔创作出来的《文明》是一款回合制策略游戏，让玩家尝试建立起一个帝国，并接受时间的考验。玩家将创建及带领自己的文明从石器时代迈向信息时代，并成为世界的领导者。在尝试建立起世界上赫赫有名的伟大文明的过程中，玩家将启动战争、实行外交、促进文化，同时正面对抗历史上的众多伟大领袖。\r\n\r\n《文明VI》带给玩家与世界互动的新方式：城市现在可以在地图上实际地扩张，积极钻研科技和文化可以解锁新潜能，互相竞争的领袖会依据历史所记载的个人特征去追求自我宗旨，而且玩家可通过五种方式之一取得游戏胜利。\r\n\r\n扩张帝国\r\n让您以前所未有的方式看着帝国在地图上扩张壮大。每座城市都会占用多个格子，让您可以自行建设城市以充分运用当地的地形。\r\n积极探索\r\n解锁能加速文明历史进程的促进项目。若要进展地更快速，派您的单位积极探索、发展您的环境，以及发现新文化。\r\n动态外交\r\n与其他文明之间的互动会随着游戏的进行而改变。原始时代的初次互动可能是避免不了的战争冲突，但到游戏后期的互动将会转变成结盟与协商。\r\n军力结合\r\n以“每格一单位”的设计概念去做扩展，支援单位现在可以嵌入其他单位，例如反坦克单位支援步兵，战士支援拓荒者。类似的单位也可以结合在一起形成强大的“军团”单位。\r\n更上层楼的多人游戏\r\n除了传统的多人游戏模式外，还可以在众多各式各样的情境下（全都设计成可在一场游戏时间里轻松完成）与您的好友合作及对抗。\r\n适合所有玩家的《文明》游戏\r\n《文明VI》提供了老玩家建立及调整文明的新方式，让他们有最大的机会取得成功。新的教学系统能让新玩家理解游戏的根本概念，帮助他们轻松上手。",
     "category": "game",
@@ -23,6 +53,51 @@
       },
       {
         "url": "https://www.igdb.com/games/sid-meiers-civilization-vi"
+      }
+    ]
+  },
+  {
+    "title": "巫师3：狂猎",
+    "description": "《巫师3：狂猎》将是三部曲系列的最后一作，故事将有宏大的最后结局，但并非《巫师》系列的最终作。本作采用最新的REDengine3引擎制作，玩家可以在无缝的世界里任意探索，采用非线性剧情的设定，整体规模是前作的30倍。",
+    "category": "game",
+    "type": "Game",
+    "uuid": "5cmkcv3sICCbh2wHLkNNHo",
+    "rating": 9.4,
+    "rating_count": 354,
+    "cover_image_url": "https://neodb.social/m/item/doubangame/2024/07/16/9ed5e47f-3034-4b80-8d49-8e57b92c8d0c.jpg",
+    "external_resources": [
+      {
+        "url": "https://store.steampowered.com/app/292030"
+      },
+      {
+        "url": "https://bgm.tv/subject/66198"
+      },
+      {
+        "url": "https://eggplant.place/game/7WrX4RREE5EzLuc8dqYovU"
+      },
+      {
+        "url": "https://www.douban.com/game/21355730/"
+      }
+    ]
+  },
+  {
+    "title": "饥荒联机版",
+    "description": "在绝不妥协的荒野生存游戏《饥荒》的多人联机版中一起战斗、耕种、建设和探索吧。",
+    "category": "game",
+    "type": "Game",
+    "uuid": "3tG2B56IkhfkA82ZYJ34EK",
+    "rating": 9.1,
+    "rating_count": 128,
+    "cover_image_url": "https://neodb.social/m/item/steam/2023/09/10/d3374484-f8e1-40c0-8f00-7fc1d1bf6d2b.jpg",
+    "external_resources": [
+      {
+        "url": "https://www.douban.com/game/26419552/"
+      },
+      {
+        "url": "https://store.steampowered.com/app/322330"
+      },
+      {
+        "url": "https://bgm.tv/subject/138967"
       }
     ]
   },
