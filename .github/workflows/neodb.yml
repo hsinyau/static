@@ -35,7 +35,7 @@ jobs:
     - name: Get Current Count
       run: |
         CURRENT_COUNT() {
-          jq '.count' data/neodb/movie.json
+          jq '.count' neodb/neodb.json
         }
         echo "CURRENT_COUNT=$(CURRENT_COUNT)" >> $GITHUB_ENV
 
@@ -165,11 +165,11 @@ jobs:
 
         
         # 更新 NeoDB 数据
-        cp -f neodb.json ${{ env.WORK_DIR }}/data/neodb/
-        cp -f book.json ${{ env.WORK_DIR }}/data/neodb/
-        cp -f game.json ${{ env.WORK_DIR }}/data/neodb/
-        cp -f tv.json ${{ env.WORK_DIR }}/data/neodb/
-        cp -f movie.json ${{ env.WORK_DIR }}/data/neodb/
+        cp -f neodb.json ${{ env.WORK_DIR }}/neodb/
+        cp -f book.json ${{ env.WORK_DIR }}/neodb/
+        cp -f game.json ${{ env.WORK_DIR }}/neodb/
+        cp -f tv.json ${{ env.WORK_DIR }}/neodb/
+        cp -f movie.json ${{ env.WORK_DIR }}/neodb/
 
     - name: Download NeoDB Cover
       run: |
@@ -179,7 +179,7 @@ jobs:
         fi
 
         # 读取本地的 neodb.json 文件内容
-        json=$(cat data/neodb/neodb.json)
+        json=$(cat neodb/neodb.json)
 
         # 提取图片 URL
         image_urls=$(echo "$json" | jq -r '.data[].item.cover_image_url')
@@ -187,7 +187,7 @@ jobs:
         # 遍历图片 URL 并下载图片
         for url in $image_urls; do
           filename=$(basename "$url")
-          filepath="data/neodb/cover/$filename"
+          filepath="neodb/cover/$filename"
 
           # 检查文件是否已存在
           if [ -f "$filepath" ]; then
@@ -206,4 +206,4 @@ jobs:
       uses: EndBug/add-and-commit@v9
       with:
         message: 'chore(data): update neodb data'
-        add: './data/neodb'
+        add: './neodb'
