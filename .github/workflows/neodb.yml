@@ -52,6 +52,7 @@ jobs:
         }
         echo "MOVIE_COUNT=$(MOVIE_COUNT)" >> $GITHUB_ENV
 
+        # 获取 NeoDB 上电视剧的标记数
         curl -X 'GET' \
         'https://neodb.social/api/me/shelf/complete?category=tv&page=1' \
         -H 'accept: application/json' \
@@ -62,7 +63,29 @@ jobs:
           jq '.count' tv1.json
         }
 
-        REMOTE_COUNT=$(($(MOVIE_COUNT) + $(TV_COUNT)))
+        # 获取 NeoDB 上书籍的标记数
+        curl -X 'GET' \
+        'https://neodb.social/api/me/shelf/complete?category=book&page=1' \
+        -H 'accept: application/json' \
+        -H 'Authorization: Bearer ${{ secrets.NEODB_ACCESS_TOKEN }}' > book1.json
+
+        # 获取 NeoDB 上书籍的标记数
+        BOOK_COUNT() {
+          jq '.count' book1.json
+        }
+
+        # 获取 NeoDB 上游戏的标记数
+        curl -X 'GET' \
+        'https://neodb.social/api/me/shelf/complete?category=game&page=1' \
+        -H 'accept: application/json' \
+        -H 'Authorization: Bearer ${{ secrets.NEODB_ACCESS_TOKEN }}' > game1.json
+
+        # 获取 NeoDB 上游戏的标记数
+        GAME_COUNT() {
+          jq '.count' game1.json
+        }
+
+        REMOTE_COUNT=$(($(MOVIE_COUNT) + $(TV_COUNT) + $(BOOK_COUNT) + $(GAME_COUNT)))
 
         echo "REMOTE_COUNT=$REMOTE_COUNT" >> $GITHUB_ENV
 
@@ -83,6 +106,8 @@ jobs:
         #从 json 中提取 pages 字段的值
         pages=$(jq '.pages' movie1.json)
         tv_pages=$(jq '.pages' tv1.json)
+        book_pages=$(jq '.pages' book1.json)
+        game_pages=$(jq '.pages' game1.json)
 
         # 个人使用，新建 WorkDIR ，排除 vercel.json 和 package.json 等
         mkdir neodb
@@ -103,16 +128,37 @@ jobs:
         for ((i=1; i<=$tv_pages; i++)); do
           tv_url="https://neodb.social/api/me/shelf/complete?category=tv&page=$i"
           tv_filename="tv$i.json"
+          
           curl -X 'GET' "$tv_url" \
             -H 'accept: application/json' \
             -H 'Authorization: Bearer ${{ secrets.NEODB_ACCESS_TOKEN }}' > "$tv_filename"
           done
 
+        # 下载 TV 分类
+        for ((i=1; i<=$book_pages; i++)); do
+          book_url="https://neodb.social/api/me/shelf/complete?category=book&page=$i"
+          book_filename="book$i.json"
+          
+          curl -X 'GET' "$book_url" \
+            -H 'accept: application/json' \
+            -H 'Authorization: Bearer ${{ secrets.NEODB_ACCESS_TOKEN }}' > "$book_filename"
+          done
+
+        # 下载 Game 分类
+        for ((i=1; i<=$game_pages; i++)); do
+          game_url="https://neodb.social/api/me/shelf/complete?category=game&page=$i"
+          game_filename="game$i.json"
+          
+          curl -X 'GET' "$game_url" \
+            -H 'accept: application/json' \
+            -H 'Authorization: Bearer ${{ secrets.NEODB_ACCESS_TOKEN }}' > "$game_filename"
+          done
+
         # 把所有数据合并成一个文件
-        jq -c -s '{data: map(.data[]) | unique | sort_by(.created_time) | reverse, pages: map(.pages)[0], count: map(.count)[0]}' *.json > movie.json
+        jq -c -s '{data: map(.data[]) | unique | sort_by(.created_time) | reverse, pages: map(.pages)[0], count: map(.count)[0]}' *.json > neodb.json
 
         # 更新 NeoDB 数据
-        cp -f movie.json ${{ env.WORK_DIR }}/data/neodb/
+        cp -f neodb.json ${{ env.WORK_DIR }}/data/neodb/
 
     - name: Download NeoDB Cover
       run: |
