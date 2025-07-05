@@ -165,14 +165,6 @@ jobs:
         jq -r '[.data[] | select(.item.category == "tv") | {title: .item.title, description: .item.description, category: .item.category, type: .item.type, uuid: .item.uuid, rating: .item.rating, rating_count: .item.rating_count, cover_image_url: .item.cover_image_url, external_resources: .item.external_resources}]' neodb.json > tv.json
         jq -r '[.data[] | select(.item.category == "movie") | {title: .item.title, description: .item.description, category: .item.category, type: .item.type, uuid: .item.uuid, rating: .item.rating, rating_count: .item.rating_count, cover_image_url: .item.cover_image_url, external_resources: .item.external_resources}]' neodb.json > movie.json
 
-        
-        # 更新 NeoDB 数据
-        cp -f neodb.json ${{ env.WORK_DIR }}/neodb/
-        cp -f book.json ${{ env.WORK_DIR }}/neodb/
-        cp -f game.json ${{ env.WORK_DIR }}/neodb/
-        cp -f tv.json ${{ env.WORK_DIR }}/neodb/
-        cp -f movie.json ${{ env.WORK_DIR }}/neodb/
-
     - name: Download NeoDB Cover
       run: |
         # 读取本地的 neodb.json 文件内容
@@ -203,4 +195,4 @@ jobs:
       uses: EndBug/add-and-commit@v9
       with:
         message: 'chore(data): update neodb data'
-        add: './neodb'
+        add: 'tv.json mov.json book.json game.json neodb.json'
