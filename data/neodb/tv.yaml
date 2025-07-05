@@ -1,33 +1,37 @@
-{
-  "title": "黑暗荣耀 第二季",
-  "description": "“欢迎来到我的地狱。”\n文东恩精心策划的复仇大计即将开始。",
-  "category": "tv",
-  "type": "TVSeason",
-  "uuid": "0273T1QHVTwO5T5rQfgzu3",
-  "rating": 7.9,
-  "rating_count": 574,
-  "cover_image_url": "https://neodb.social/m/item/doubanmovie/2023/03/27/dfb09ee2-07fb-49d7-a1f6-e0af700123d2.jpg",
-  "external_resources": [
-    {
-      "url": "https://movie.douban.com/subject/36193784/"
-    }
-  ]
-}
-{
-  "title": "黑暗荣耀",
-  "description": "文同珢（宋慧乔 饰）出生在一个贫穷的家庭之中，高中时期，她不幸被班上由朴涎镇（林智妍 饰）和全宰寯（朴成焄 饰）等人组成的小团体选中，成为了他们霸凌的对象。朴涎镇对待文同珢的手段非常的残暴，用卷发棒将其烫得体无完肤。绝望的文同珢想到了自杀，但是最终她放弃了寻死的念头，退了学，进入工厂上班。支持她继续活下去的理由只有一个，那就是有朝一日要向当年霸凌她的人们复仇。\r\n一晃眼多年过去，文同珢凭借着自己的努力顺利的进入了朴涎镇女儿所在的学校，成为了她的班主任。自此开始，文同珢的复仇计划拉开了帷幕，她要向每一个踩在她头上的人复仇，无论这个人是主谋，还是帮凶。",
-  "category": "tv",
-  "type": "TVSeason",
-  "uuid": "4x471bhiZmxy6AJmdl86A3",
-  "rating": 8.0,
-  "rating_count": 435,
-  "cover_image_url": "https://neodb.social/m/item/doubanmovie/2023/05/11/7835d2ff-7805-4d36-8093-92e9fd113cf6.jpg",
-  "external_resources": [
-    {
-      "url": "https://movie.douban.com/subject/35314632/"
-    },
-    {
-      "url": "https://www.themoviedb.org/tv/136283/season/1"
-    }
-  ]
-}
+[
+  {
+    "title": "黑暗荣耀 第二季",
+    "description": "“欢迎来到我的地狱。”\n文东恩精心策划的复仇大计即将开始。",
+    "category": "tv",
+    "type": "TVSeason",
+    "uuid": "0273T1QHVTwO5T5rQfgzu3",
+    "rating": 7.9,
+    "rating_count": 574,
+    "cover_image_url": "https://neodb.social/m/item/doubanmovie/2023/03/27/dfb09ee2-07fb-49d7-a1f6-e0af700123d2.jpg",
+    "external_resources": [
+      {
+        "url": "https://movie.douban.com/subject/36193784/"
+      }
+    ]
+  }
+]
+[
+  {
+    "title": "黑暗荣耀",
+    "description": "文同珢（宋慧乔 饰）出生在一个贫穷的家庭之中，高中时期，她不幸被班上由朴涎镇（林智妍 饰）和全宰寯（朴成焄 饰）等人组成的小团体选中，成为了他们霸凌的对象。朴涎镇对待文同珢的手段非常的残暴，用卷发棒将其烫得体无完肤。绝望的文同珢想到了自杀，但是最终她放弃了寻死的念头，退了学，进入工厂上班。支持她继续活下去的理由只有一个，那就是有朝一日要向当年霸凌她的人们复仇。\r\n一晃眼多年过去，文同珢凭借着自己的努力顺利的进入了朴涎镇女儿所在的学校，成为了她的班主任。自此开始，文同珢的复仇计划拉开了帷幕，她要向每一个踩在她头上的人复仇，无论这个人是主谋，还是帮凶。",
+    "category": "tv",
+    "type": "TVSeason",
+    "uuid": "4x471bhiZmxy6AJmdl86A3",
+    "rating": 8.0,
+    "rating_count": 435,
+    "cover_image_url": "https://neodb.social/m/item/doubanmovie/2023/05/11/7835d2ff-7805-4d36-8093-92e9fd113cf6.jpg",
+    "external_resources": [
+      {
+        "url": "https://movie.douban.com/subject/35314632/"
+      },
+      {
+        "url": "https://www.themoviedb.org/tv/136283/season/1"
+      }
+    ]
+  }
+]
