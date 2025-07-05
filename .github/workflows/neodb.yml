@@ -165,7 +165,7 @@ jobs:
 
         
         # 更新 NeoDB 数据
-        cp -f neodb.json ${{ env.WORK_DIR }}/data/neodb/
+        cp -f all.json ${{ env.WORK_DIR }}/data/neodb/
         cp -f book.yaml ${{ env.WORK_DIR }}/data/neodb/
         cp -f game.yaml ${{ env.WORK_DIR }}/data/neodb/
         cp -f tv.yaml ${{ env.WORK_DIR }}/data/neodb/
