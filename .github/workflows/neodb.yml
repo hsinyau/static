@@ -110,7 +110,9 @@ jobs:
         game_pages=$(jq '.pages' game1.json)
 
         # 个人使用，新建 WorkDIR ，排除 vercel.json 和 package.json 等
-        mkdir neodb
+        if [ ! -d "neodb" ]; then
+          mkdir neodb
+        fi
         cd neodb
 
         # 下载 Movie 分类
