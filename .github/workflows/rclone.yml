@@ -30,7 +30,7 @@ jobs:
         deleted_files=$(git diff --name-only --diff-filter=D HEAD~1 HEAD)
 
         # 过滤出指定文件夹的文件
-        # 只保留 emoji、footprints、moments、neodb 文件夹下的文件
+        # 只保留 emoji、footprints、moments、neodb、vsco 文件夹下的文件
         filtered_changed_files=""
         filtered_deleted_files=""
 
@@ -38,7 +38,7 @@ jobs:
         while IFS= read -r file; do
           if [[ -n "$file" ]]; then
             # 检查文件是否在指定文件夹中
-            if [[ "$file" =~ ^(emoji|footprints|moments|neodb)/ ]]; then
+            if [[ "$file" =~ ^(emoji|footprints|moments|neodb|vsco)/ ]]; then
               filtered_changed_files="$filtered_changed_files$file"$'\n'
             fi
           fi
@@ -48,7 +48,7 @@ jobs:
         while IFS= read -r file; do
           if [[ -n "$file" ]]; then
             # 检查文件是否在指定文件夹中
-            if [[ "$file" =~ ^(emoji|footprints|moments|neodb)/ ]]; then
+            if [[ "$file" =~ ^(emoji|footprints|moments|neodb|vsco)/ ]]; then
               filtered_deleted_files="$filtered_deleted_files$file"$'\n'
             fi
           fi
