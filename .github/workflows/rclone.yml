@@ -23,58 +23,103 @@ jobs:
 
     - name: Rclone Sync
       run: |
-        # 列出两个 commit 之间变化的文件
-        changed_files=$(git diff --name-only HEAD~1 HEAD)
-
-        # 列出被删除的文件
-        deleted_files=$(git diff --name-only --diff-filter=D HEAD~1 HEAD)
-
-        # 过滤出指定文件夹的文件
-        # 只保留 emoji、footprints、moments、neodb、vsco 文件夹下的文件
-        filtered_changed_files=""
-        filtered_deleted_files=""
-
-        # 处理变化的文件
-        while IFS= read -r file; do
-          if [[ -n "$file" ]]; then
-            # 检查文件是否在指定文件夹中
-            if [[ "$file" =~ ^(emoji|footprints|moments|neodb|vsco)/ ]]; then
-              filtered_changed_files="$filtered_changed_files$file"$'\n'
+        echo "=== Debug: Current directory ==="
+        pwd
+        echo "=== Debug: Git status ==="
+        git status --porcelain
+        echo "=== Debug: Git log (last 3 commits) ==="
+        git log --oneline -3
+        
+        # 检查是否有足够的历史记录
+        if git rev-parse HEAD~1 >/dev/null 2>&1; then
+          echo "=== Debug: Found previous commit HEAD~1 ==="
+          
+          # 列出两个 commit 之间变化的文件
+          changed_files=$(git diff --name-only HEAD~1 HEAD)
+          deleted_files=$(git diff --name-only --diff-filter=D HEAD~1 HEAD)
+          
+          echo "=== Debug: All changed files ==="
+          echo "$changed_files"
+          echo "=== Debug: All deleted files ==="
+          echo "$deleted_files"
+          
+          # 过滤出指定文件夹的文件
+          # 只保留 emoji、footprints、moments、neodb、vsco 文件夹下的文件
+          filtered_changed_files=""
+          filtered_deleted_files=""
+          
+          # 处理变化的文件
+          echo "=== Debug: Processing changed files ==="
+          while IFS= read -r file; do
+            if [[ -n "$file" ]]; then
+              echo "Processing: $file"
+              # 检查文件是否在指定文件夹中
+              if [[ "$file" =~ ^(emoji|footprints|moments|neodb|vsco)/ ]]; then
+                filtered_changed_files="$filtered_changed_files$file"$'\n'
+                echo "  -> MATCHED: $file"
+              else
+                echo "  -> SKIPPED: $file"
+              fi
             fi
-          fi
-        done <<< "$changed_files"
-
-        # 处理删除的文件
-        while IFS= read -r file; do
-          if [[ -n "$file" ]]; then
-            # 检查文件是否在指定文件夹中
-            if [[ "$file" =~ ^(emoji|footprints|moments|neodb|vsco)/ ]]; then
-              filtered_deleted_files="$filtered_deleted_files$file"$'\n'
+          done <<< "$changed_files"
+          
+          # 处理删除的文件
+          echo "=== Debug: Processing deleted files ==="
+          while IFS= read -r file; do
+            if [[ -n "$file" ]]; then
+              echo "Processing: $file"
+              # 检查文件是否在指定文件夹中
+              if [[ "$file" =~ ^(emoji|footprints|moments|neodb|vsco)/ ]]; then
+                filtered_deleted_files="$filtered_deleted_files$file"$'\n'
+                echo "  -> MATCHED: $file"
+              else
+                echo "  -> SKIPPED: $file"
+              fi
             fi
+          done <<< "$deleted_files"
+          
+          # 使用 rclone 同步这些文件
+          echo "$filtered_changed_files" > changed_files.txt
+          echo "$filtered_deleted_files" > deleted_files.txt
+          
+          # 删除空行
+          sed -i '/^$/d' changed_files.txt
+          sed -i '/^$/d' deleted_files.txt
+          
+          echo "=== Debug: Final changed_files.txt ==="
+          if [ -s changed_files.txt ]; then
+            cat changed_files.txt
+          else
+            echo "(empty)"
           fi
-        done <<< "$deleted_files"
-
-        # 使用 rclone 同步这些文件
-        echo "$filtered_changed_files" > changed_files.txt
-        echo "$filtered_deleted_files" > deleted_files.txt
-
-        # 删除空行
-        sed -i '/^$/d' changed_files.txt
-        sed -i '/^$/d' deleted_files.txt
-
-        # 使用 rclone 同步这些文件
-        if [ -s changed_files.txt ]; then
-          rclone sync . Cloudflare:${{ secrets.CF_R2_BUCKET }} --include-from changed_files.txt || true
-          echo "Changed Files:"
-          cat changed_files.txt
+          
+          echo "=== Debug: Final deleted_files.txt ==="
+          if [ -s deleted_files.txt ]; then
+            cat deleted_files.txt
+          else
+            echo "(empty)"
+          fi
+          
+          # 使用 rclone 同步这些文件
+          if [ -s changed_files.txt ]; then
+            echo "=== Syncing changed files ==="
+            rclone sync . Cloudflare:${{ secrets.CF_R2_BUCKET }} --include-from changed_files.txt --verbose || true
+            echo "Changed Files:"
+            cat changed_files.txt
+          else
+            echo "No changed files in specified folders"
+          fi
+          
+          if [ -s deleted_files.txt ]; then
+            echo "=== Deleting files ==="
+            rclone delete Cloudflare:${{ secrets.CF_R2_BUCKET }} --include-from deleted_files.txt --verbose || true
+            echo "Deleted Files:"
+            cat deleted_files.txt
+          else
+            echo "No deleted files in specified folders"
+          fi
         else
-          echo "No changed files in specified folders"
-        fi
-
-        if [ -s deleted_files.txt ]; then
-          rclone delete Cloudflare:${{ secrets.CF_R2_BUCKET }} --include-from deleted_files.txt || true
-          echo "Deleted Files:"
-          cat deleted_files.txt
-        else
-          echo "No deleted files in specified folders"
+          echo "=== No previous commit found, syncing all files ==="
+          rclone sync . Cloudflare:${{ secrets.CF_R2_BUCKET }} --verbose || true
+          echo "Synced all files"
         fi
