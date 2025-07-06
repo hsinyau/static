@@ -103,7 +103,7 @@ jobs:
           # 使用 rclone 同步这些文件
           if [ -s changed_files.txt ]; then
             echo "=== Syncing changed files ==="
-            rclone sync . Cloudflare:${{ secrets.CF_R2_BUCKET }} --include-from changed_files.txt --verbose || true
+            rclone sync . github-action:${{ secrets.CF_R2_BUCKET }} --include-from changed_files.txt --verbose || true
             echo "Changed Files:"
             cat changed_files.txt
           else
@@ -112,7 +112,7 @@ jobs:
           
           if [ -s deleted_files.txt ]; then
             echo "=== Deleting files ==="
-            rclone delete Cloudflare:${{ secrets.CF_R2_BUCKET }} --include-from deleted_files.txt --verbose || true
+            rclone delete github-action:${{ secrets.CF_R2_BUCKET }} --include-from deleted_files.txt --verbose || true
             echo "Deleted Files:"
             cat deleted_files.txt
           else
@@ -120,33 +120,6 @@ jobs:
           fi
         else
           echo "=== No previous commit found, syncing all files ==="
-          rclone sync . Cloudflare:${{ secrets.CF_R2_BUCKET }} --verbose || true
+          rclone sync . github-action:${{ secrets.CF_R2_BUCKET }} --verbose || true
           echo "Synced all files"
-        fi
-
-    - name: Sync All Specified Folders
-      run: |
-        echo "=== Syncing all files from specified folders to ensure completeness ==="
-        
-        # 创建包含所有指定文件夹文件的列表
-        echo "Creating file list for specified folders..."
-        
-        # 使用 find 命令找到所有指定文件夹下的文件
-        find emoji footprints moments neodb vsco -type f 2>/dev/null > all_specified_files.txt || true
-        
-        echo "=== All files in specified folders ==="
-        if [ -s all_specified_files.txt ]; then
-          cat all_specified_files.txt
-          echo "Total files: $(wc -l < all_specified_files.txt)"
-        else
-          echo "No files found in specified folders"
-        fi
-        
-        # 同步所有指定文件夹的文件到 R2
-        if [ -s all_specified_files.txt ]; then
-          echo "=== Syncing all specified folder files to R2 ==="
-          rclone sync . Cloudflare:${{ secrets.CF_R2_BUCKET }} --include-from all_specified_files.txt --verbose || true
-          echo "Completed syncing all specified folder files"
-        else
-          echo "No files to sync from specified folders"
         fi
