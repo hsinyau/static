@@ -23,7 +23,7 @@
       "type": "TVSeason",
       "uuid": "0273T1QHVTwO5T5rQfgzu3",
       "rating": 7.9,
-      "rating_count": 574,
+      "rating_count": 575,
       "cover_image_url": "https://neodb.social/m/item/doubanmovie/2023/03/27/dfb09ee2-07fb-49d7-a1f6-e0af700123d2.jpg",
       "external_resources": [
         {
@@ -39,7 +39,7 @@
       "type": "TVSeason",
       "uuid": "4x471bhiZmxy6AJmdl86A3",
       "rating": 8,
-      "rating_count": 435,
+      "rating_count": 436,
       "cover_image_url": "https://neodb.social/m/item/doubanmovie/2023/05/11/7835d2ff-7805-4d36-8093-92e9fd113cf6.jpg",
       "external_resources": [
         {
@@ -171,7 +171,7 @@
       "type": "Movie",
       "uuid": "3QjgE0V4yaQGbcjGtpvRIz",
       "rating": 8.5,
-      "rating_count": 2454,
+      "rating_count": 2455,
       "cover_image_url": "https://neodb.social/m/item/fedi/2025/01/20/9af3d23c-62c9-4794-a514-bd3f69ed9f76.jpg",
       "external_resources": [
         {
@@ -234,7 +234,7 @@
       "type": "Movie",
       "uuid": "22WSvPydbv3BvW0L2QL0Z6",
       "rating": 6.7,
-      "rating_count": 199,
+      "rating_count": 200,
       "cover_image_url": "https://neodb.social/m/movie/2021/09/1609baec30-5955-4a63-9420-a4cc4f6695e2.jpg",
       "external_resources": [
         {
@@ -272,7 +272,7 @@
       "type": "Game",
       "uuid": "20NJSQLswiorrvgSaEx9s5",
       "rating": 9.1,
-      "rating_count": 365,
+      "rating_count": 367,
       "cover_image_url": "https://neodb.social/m/item/game/2024/12/20/2a53f405-bf32-44c7-8c91-1e91d7345720.jpg",
       "external_resources": [
         {
@@ -341,7 +341,7 @@
       "type": "Movie",
       "uuid": "3BU3rgfjc2PaymhsN2rxwO",
       "rating": 8.7,
-      "rating_count": 1885,
+      "rating_count": 1886,
       "cover_image_url": "https://neodb.social/m/movie/2021/09/140ecda37d-fab5-4d1d-9270-1ded9d5cc0d5.jpg",
       "external_resources": [
         {
@@ -385,13 +385,35 @@
       "created_time": "2019-07-22T13:54:00Z"
     },
     {
+      "title": "侧耳倾听",
+      "description": "正在读初三的月岛雯是一个喜欢看书的女孩，她每次都能在借书卡上看到一个叫天泽圣司名字，因此她对这个人充满了好奇。 雯一直喜欢写诗，有一天她跟好友夕子在讨论写诗的事，夕子告诉雯自己收到了情书，但事实上夕子已有了喜欢的人。更没有想到的是，夕子喜欢的杉村喜欢的是雯，雯一时间感到十分困惑。 雯无意中来到了一个小店，原来店主是圣司的爷爷。认识了圣司之后，听到了圣司对自己理想的追求之后，也激发了雯对自己理想的追求之念。当圣司离开了到意大利学习做小提琴时，雯决定要专心写作。当雯完成了作品之后，她发现原来自己高估了自己，就这样她选择继续考高中，这时她非常想念圣司。 一天凌晨，她站到窗边，突然看到了一个熟悉的身影……",
+      "category": "movie",
+      "type": "Movie",
+      "uuid": "3t2X3K2gL3ryF84lFQE0u4",
+      "rating": 8.8,
+      "rating_count": 1043,
+      "cover_image_url": "https://neodb.social/m/movie/2021/09/15289ddca6-1ec7-4a40-ac61-1af9bcbb3b51.jpg",
+      "external_resources": [
+        {
+          "url": "https://movie.douban.com/subject/1297052/"
+        },
+        {
+          "url": "https://www.themoviedb.org/movie/37797"
+        },
+        {
+          "url": "https://bgm.tv/subject/500"
+        }
+      ],
+      "created_time": "2019-07-16T13:54:00Z"
+    },
+    {
       "title": "萤火之森",
       "description": "某年夏天，6岁小女孩竹川萤来到爷爷家度假，她闯进了传说住满妖怪的山神森林。正当她因为迷路而焦急万分的时候，一个戴着狐狸面具的大男孩出现在她面前，并引领着萤找到回家的路。虽然萤分外感激，可是男孩却禁止她碰触自己的身体，原来这名叫银的男孩并非人类，他一旦被人类碰触就会烟消云散。在此后的日子里，萤和银成为好朋友，他们走遍了森林的每一个角落玩耍。日复一日，年复一年，每到夏天的时候萤就会如约来到森林和好朋友见面。她遵守着和银的约定，无论如何也不碰触银的身体。随着年龄的增长，萤和银对彼此的情感都悄悄发生了变化，他们共同期待相聚的日子，共同期待拥抱对方……\n本片根据绿川幸的原作改编。",
       "category": "movie",
       "type": "Movie",
       "uuid": "28euCmRkW8hPdwi5c0WZWV",
       "rating": 8.3,
-      "rating_count": 1034,
+      "rating_count": 1035,
       "cover_image_url": "https://neodb.social/m/movie/2021/09/153b498876-70c9-4efc-b123-85c0b30f02ed.jpg",
       "external_resources": [
         {
@@ -454,7 +476,7 @@
       "type": "Movie",
       "uuid": "0Wl134TQb5X1u1RzgwWEJu",
       "rating": 8.5,
-      "rating_count": 1444,
+      "rating_count": 1445,
       "cover_image_url": "https://neodb.social/m/movie/2021/09/13f4776543-a590-45c4-8e85-3eceae9d73b1.jpg",
       "external_resources": [
         {
@@ -479,7 +501,7 @@
       "type": "Movie",
       "uuid": "3AtljwtTdzePF9IKtsW9TB",
       "rating": 8.8,
-      "rating_count": 1498,
+      "rating_count": 1500,
       "cover_image_url": "https://neodb.social/m/movie/2021/09/15ea8abbf5-34b4-4354-a74a-4bd75ae8cf66.jpg",
       "external_resources": [
         {
@@ -501,6 +523,6 @@
       "created_time": "2017-05-10T13:54:00Z"
     }
   ],
-  "total_count": 23,
-  "last_updated": "2025-07-05T18:09:21.980Z"
+  "total_count": 24,
+  "last_updated": "2025-07-06T15:11:52.660Z"
 }
