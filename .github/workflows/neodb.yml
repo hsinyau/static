@@ -51,48 +51,38 @@ jobs:
           git add ./neodb
           git commit -m "chore(data): update neodb data"
           git push
-  
-  rclone:
-    name: s3 bucket Sync 
-    runs-on: ubuntu-latest
-    steps:
-    - name: Checkout
-      uses: actions/checkout@v4
-      with:
-        fetch-depth: '2'
 
-    # Setup Rclone
-    - name: Setup Rclone
-      uses: AnimMouse/setup-rclone@v1
-      with:
-        rclone_config: ${{ secrets.RCLONE_CONFIG }}
+      - name: Setup Rclone
+        uses: AnimMouse/setup-rclone@v1
+        with:
+          rclone_config: ${{ secrets.RCLONE_CONFIG }}
 
-    # Rclone Sync
-    - name: Rclone Sync
-      run: |
-        # 列出两个 commit 之间变化的文件
-        changed_files=$(git diff --name-only HEAD~1 HEAD)
+        # Rclone Sync
+      - name: Rclone Sync
+        run: |
+          # 列出两个 commit 之间变化的文件
+          changed_files=$(git diff --name-only HEAD~1 HEAD)
 
-        # 列出被删除的文件
-        deleted_files=$(git diff --name-only --diff-filter=D HEAD~1 HEAD)
+          # 列出被删除的文件
+          deleted_files=$(git diff --name-only --diff-filter=D HEAD~1 HEAD)
 
-        # 使用 rclone 同步这些文件
+          # 使用 rclone 同步这些文件
+          echo "${changed_files[@]}" > changed_files.txt
+          echo "${deleted_files[@]}" > deleted_files.txt
 
-        echo "${changed_files[@]}" > changed_files.txt
-        echo "${deleted_files[@]}" > deleted_files.txt
+          # 删除空行
+          sed -i '/^$/d' changed_files.txt
+          sed -i '/^$/d' deleted_files.txt
 
-        sed -i '/^$/d' changed_files.txt
-        sed -i '/^$/d' deleted_files.txt
+          # 使用 rclone 同步这些文件
+          if [ -s changed_files.txt ]; then
+            rclone sync . github-action:${{ secrets.CF_R2_BUCKET }} --include-from changed_files.txt || true
+            echo "Changed Files:"
+            cat changed_files.txt
+          fi
 
-        # 使用 rclone 同步这些文件
-        if [ -s changed_files.txt ]; then
-          rclone sync . Cloudflare:${{ secrets.CF_R2_BUCKET }} --include-from changed_files.txt || true
-          echo "Changed Files:"
-          cat changed_files.txt
-        fi
-
-        if [ -s deleted_files.txt ]; then
-          rclone delete Cloudflare:${{ secrets.CF_R2_BUCKET }} --include-from deleted_files.txt || true
-          echo "Deleted Files:"
-          cat deleted_files.txt
-        fi
+          if [ -s deleted_files.txt ]; then
+            rclone delete github-action:${{ secrets.CF_R2_BUCKET }} --include-from deleted_files.txt || true
+            echo "Deleted Files:"
+            cat deleted_files.txt
+          fi
