@@ -45,7 +45,7 @@
       "type": "TVSeason",
       "uuid": "0273T1QHVTwO5T5rQfgzu3",
       "rating": 7.9,
-      "rating_count": 575,
+      "rating_count": 576,
       "cover_image_url": "https://neodb.social/m/item/doubanmovie/2023/03/27/dfb09ee2-07fb-49d7-a1f6-e0af700123d2.jpg",
       "external_resources": [
         {
@@ -61,7 +61,7 @@
       "type": "TVSeason",
       "uuid": "4x471bhiZmxy6AJmdl86A3",
       "rating": 8,
-      "rating_count": 436,
+      "rating_count": 437,
       "cover_image_url": "https://neodb.social/m/item/doubanmovie/2023/05/11/7835d2ff-7805-4d36-8093-92e9fd113cf6.jpg",
       "external_resources": [
         {
@@ -96,7 +96,7 @@
       "type": "Edition",
       "uuid": "3oyDVjc23i000qX97kV3t0",
       "rating": 8.6,
-      "rating_count": 396,
+      "rating_count": 397,
       "cover_image_url": "https://neodb.social/m/book/2021/09/16acc5f8c7-67e7-42f4-ad46-e237044a24ef.jpg",
       "external_resources": [
         {
@@ -168,7 +168,7 @@
       "type": "Game",
       "uuid": "5cmkcv3sICCbh2wHLkNNHo",
       "rating": 9.4,
-      "rating_count": 354,
+      "rating_count": 355,
       "cover_image_url": "https://neodb.social/m/item/doubangame/2024/07/16/9ed5e47f-3034-4b80-8d49-8e57b92c8d0c.jpg",
       "external_resources": [
         {
@@ -193,7 +193,7 @@
       "type": "Movie",
       "uuid": "3QjgE0V4yaQGbcjGtpvRIz",
       "rating": 8.5,
-      "rating_count": 2459,
+      "rating_count": 2458,
       "cover_image_url": "https://neodb.social/m/item/fedi/2025/01/20/9af3d23c-62c9-4794-a514-bd3f69ed9f76.jpg",
       "external_resources": [
         {
@@ -363,7 +363,7 @@
       "type": "Movie",
       "uuid": "3BU3rgfjc2PaymhsN2rxwO",
       "rating": 8.7,
-      "rating_count": 1888,
+      "rating_count": 1887,
       "cover_image_url": "https://neodb.social/m/movie/2021/09/140ecda37d-fab5-4d1d-9270-1ded9d5cc0d5.jpg",
       "external_resources": [
         {
@@ -435,7 +435,7 @@
       "type": "Movie",
       "uuid": "28euCmRkW8hPdwi5c0WZWV",
       "rating": 8.3,
-      "rating_count": 1039,
+      "rating_count": 1038,
       "cover_image_url": "https://neodb.social/m/movie/2021/09/153b498876-70c9-4efc-b123-85c0b30f02ed.jpg",
       "external_resources": [
         {
@@ -476,7 +476,7 @@
       "type": "TVSeason",
       "uuid": "4GTQIEjlriHa1bhMi3fpgD",
       "rating": 9.5,
-      "rating_count": 483,
+      "rating_count": 484,
       "cover_image_url": "https://neodb.social/m/item/tmdb_tvseason/2024/11/28/44528d7e-1364-4c34-8e61-d26e57bba8c8.jpg",
       "external_resources": [
         {
@@ -498,7 +498,7 @@
       "type": "Movie",
       "uuid": "0Wl134TQb5X1u1RzgwWEJu",
       "rating": 8.5,
-      "rating_count": 1449,
+      "rating_count": 1448,
       "cover_image_url": "https://neodb.social/m/movie/2021/09/13f4776543-a590-45c4-8e85-3eceae9d73b1.jpg",
       "external_resources": [
         {
@@ -523,7 +523,7 @@
       "type": "Movie",
       "uuid": "3AtljwtTdzePF9IKtsW9TB",
       "rating": 8.8,
-      "rating_count": 1503,
+      "rating_count": 1504,
       "cover_image_url": "https://neodb.social/m/movie/2021/09/15ea8abbf5-34b4-4354-a74a-4bd75ae8cf66.jpg",
       "external_resources": [
         {
@@ -546,5 +546,5 @@
     }
   ],
   "total_count": 25,
-  "last_updated": "2025-07-16T01:06:34.816Z"
+  "last_updated": "2025-07-17T01:07:22.046Z"
 }
