@@ -51,7 +51,7 @@
     "type": "Movie",
     "uuid": "22WSvPydbv3BvW0L2QL0Z6",
     "rating": 6.7,
-    "rating_count": 200,
+    "rating_count": 201,
     "cover_image_url": "https://neodb.social/m/movie/2021/09/1609baec30-5955-4a63-9420-a4cc4f6695e2.jpg",
     "external_resources": [
       {
@@ -87,7 +87,7 @@
     "type": "Movie",
     "uuid": "3BU3rgfjc2PaymhsN2rxwO",
     "rating": 8.7,
-    "rating_count": 1897,
+    "rating_count": 1898,
     "cover_image_url": "https://neodb.social/m/movie/2021/09/140ecda37d-fab5-4d1d-9270-1ded9d5cc0d5.jpg",
     "external_resources": [
       {
@@ -117,7 +117,7 @@
     "type": "Movie",
     "uuid": "1bzLrr96PaILmAH1d2uvPv",
     "rating": 8.7,
-    "rating_count": 89,
+    "rating_count": 90,
     "cover_image_url": "https://neodb.social/m/movie/2021/09/1515883a02-3c7c-462f-875d-a6b740e9853e.jpg",
     "external_resources": [
       {
@@ -177,7 +177,7 @@
     "type": "Movie",
     "uuid": "0Wl134TQb5X1u1RzgwWEJu",
     "rating": 8.5,
-    "rating_count": 1454,
+    "rating_count": 1455,
     "cover_image_url": "https://neodb.social/m/movie/2021/09/13f4776543-a590-45c4-8e85-3eceae9d73b1.jpg",
     "external_resources": [
       {
