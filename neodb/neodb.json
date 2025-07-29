@@ -74,6 +74,28 @@
       "created_time": "2024-08-02T13:54:00Z"
     },
     {
+      "title": "潜水员戴夫",
+      "description": "欢迎访问以神秘蓝洞为背景的海洋冒险游戏【潜水员戴夫 DAVE THE DIVER】。 白天在美丽的大海里打鱼，晚上经营寿司店赚钱。 伴随着个性强的同事们的故事展开的海底谜团。神秘又崭新的乐趣正在等着您！",
+      "category": "game",
+      "type": "Game",
+      "uuid": "5Eb8sXUedIofTyx1dG9NtK",
+      "rating": 7.8,
+      "rating_count": 96,
+      "cover_image_url": "https://neodb.social/m/item/doubangame/2024/07/16/45a28bd8-3cff-4cb7-982f-f85f8e87790a.jpg",
+      "external_resources": [
+        {
+          "url": "https://bgm.tv/subject/406727"
+        },
+        {
+          "url": "https://eggplant.place/game/5jJ7QFTJ7Zhvouyz0bTNau"
+        },
+        {
+          "url": "https://www.douban.com/game/36138262/"
+        }
+      ],
+      "created_time": "2024-06-14T13:54:00Z"
+    },
+    {
       "title": "霓虹深渊",
       "description": "你的每一次冒险都会拓展游戏的内容，你的每一次选择都会影响游戏的规则。你的每一次重生也意味着离目标更近一步：找到解除诅咒的灵药。",
       "category": "game",
@@ -138,6 +160,22 @@
         }
       ],
       "created_time": "2022-09-07T13:54:00Z"
+    },
+    {
+      "title": "无主之地3",
+      "description": "一款由Gearbox Software开发，2K Games发行的RPG风格的FPS射击游戏，是2012年游戏《无主之地2》的正统续作。2019年3月29日，《无主之地3》正式公布，并发布了首款游戏预告。并在9月13日登陆PS4、Xbox One与PC平台。\r\n单人畅玩或者和朋友一起对抗疯狂的敌人，收集数不胜数的枪械和超多的战利品，从整个银河系最残暴的大反派克里普索姐弟手中拯救你的家园。",
+      "category": "game",
+      "type": "Game",
+      "uuid": "1ig6NellpqSGtjmIK08mDD",
+      "rating": 8.1,
+      "rating_count": 42,
+      "cover_image_url": "https://neodb.social/m/item/doubangame/2024/07/16/79140246-f0de-4887-b983-41c39630cb0c.jpg",
+      "external_resources": [
+        {
+          "url": "https://www.douban.com/game/30259284/"
+        }
+      ],
+      "created_time": "2022-07-06T13:54:00Z"
     },
     {
       "title": "月刊少女野崎君",
@@ -232,6 +270,22 @@
         }
       ],
       "created_time": "2020-10-28T13:54:00Z"
+    },
+    {
+      "title": "城市：天际线",
+      "description": "Cities: Skylines is a modern take on the classic city simulation. The game introduces new game play elements to realize the thrill and hardships of creating and maintaining a real city whilst expanding on some well-established tropes of the city building experience.",
+      "category": "game",
+      "type": "Game",
+      "uuid": "09bExgLyf8H9Yisq5wqJzY",
+      "rating": 9.3,
+      "rating_count": 81,
+      "cover_image_url": "https://neodb.social/m/item/doubangame/2024/07/16/ae56a32f-311e-4eff-b76a-56352d341a0c.jpg",
+      "external_resources": [
+        {
+          "url": "https://www.douban.com/game/26324780/"
+        }
+      ],
+      "created_time": "2020-09-12T13:54:00Z"
     },
     {
       "title": "徒然喜欢你",
@@ -492,6 +546,25 @@
       "created_time": "2019-07-05T13:54:00Z"
     },
     {
+      "title": "泰拉瑞亚",
+      "description": "挖掘，战斗，探索，修筑！在这个动感十足的冒险游戏中没有什么是不可能的。以世界为画布，地面作颜料，拿起你的工具开始吧！在《泰拉瑞亚》(Terraria)中你可以做很多事情：制造武器战胜各种各样的敌人及群落；挖掘地下寻找器材配件、金钱和其他有用的东西，收集木材，石料，矿石等资源，用你的世界创造你需要的一切并守护它。建造一所房子，一所堡垒，甚至一座城堡，人们将会搬进来住在那里，卖给你各种各样的商品来协助你的旅程。不过，要当心，因为有更多的挑战等待你…",
+      "category": "game",
+      "type": "Game",
+      "uuid": "2JQzxZSoWQGcRRzCKxUhAF",
+      "rating": 8.9,
+      "rating_count": 84,
+      "cover_image_url": "https://neodb.social/m/item/doubangame/2024/07/16/e29ccc6c-0ba4-4380-bf30-369428450d3a.jpg",
+      "external_resources": [
+        {
+          "url": "https://www.douban.com/game/10755861/"
+        },
+        {
+          "url": "https://eggplant.place/game/1YTu6yZqK8RNoLaV22bnmH"
+        }
+      ],
+      "created_time": "2018-07-28T13:54:00Z"
+    },
+    {
       "title": "心灵捕手",
       "description": "麻省理工学院的数学教授蓝波在席上公布了一道困难的数学题，却被年轻的清洁工威尔（马特·戴蒙 饰）解了出来。可是威尔却是个问题少年，成天和好朋友查克（本·阿弗莱特 饰）等人四处闲逛，打架滋事。当蓝波找到这个天才的时候，他正因为打架袭警被法庭宣判送进看守所。蓝波向法官求情保释，才使他免于牢狱之灾。\n蓝波为了让威尔找到自己的人生目标，不浪费他的数学天赋，请了很多心理学专家为威尔做辅导，但是威尔十分抗拒，专家们都束手无策。无计可施之下，蓝波求助于他大学的好友，心理学教授尚恩（罗宾·威廉姆斯 饰），希望能够帮助威尔打开心房。\n经过蓝波和尚恩的不懈努力，威尔渐渐敞开心胸，而好友查克的一席话，更是让他豁然开朗。",
       "category": "movie",
@@ -545,6 +618,6 @@
       "created_time": "2017-05-10T13:54:00Z"
     }
   ],
-  "total_count": 25,
-  "last_updated": "2025-07-28T01:11:51.184Z"
+  "total_count": 29,
+  "last_updated": "2025-07-29T01:15:07.780Z"
 }
