@@ -489,7 +489,7 @@
       "type": "Movie",
       "uuid": "28euCmRkW8hPdwi5c0WZWV",
       "rating": 8.3,
-      "rating_count": 1043,
+      "rating_count": 1044,
       "cover_image_url": "https://neodb.social/m/movie/2021/09/153b498876-70c9-4efc-b123-85c0b30f02ed.jpg",
       "external_resources": [
         {
@@ -619,5 +619,5 @@
     }
   ],
   "total_count": 29,
-  "last_updated": "2025-07-30T01:08:37.804Z"
+  "last_updated": "2025-07-31T01:08:08.359Z"
 }
