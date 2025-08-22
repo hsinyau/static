@@ -17,6 +17,12 @@
           "url": "https://movie.douban.com/subject/1292220/"
         },
         {
+          "url": "https://www.wikidata.org/wiki/Q958125"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt0113703/"
+        },
+        {
           "url": "https://www.themoviedb.org/movie/47002"
         }
       ],
@@ -345,6 +351,15 @@
       "cover_image_url": "https://neodb.social/m/movie/2021/09/1501ca9894-5046-4d26-8efd-3072052aafcf.jpg",
       "external_resources": [
         {
+          "url": "https://www.wikidata.org/wiki/Q56421709"
+        },
+        {
+          "url": "https://bgm.tv/subject/221736"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt7236034/"
+        },
+        {
           "url": "https://movie.douban.com/subject/27107140/"
         },
         {
@@ -433,6 +448,9 @@
       "cover_image_url": "https://neodb.social/m/movie/2021/09/140ecda37d-fab5-4d1d-9270-1ded9d5cc0d5.jpg",
       "external_resources": [
         {
+          "url": "https://www.wikidata.org/wiki/Q29011"
+        },
+        {
           "url": "https://eggplant.place/movie/16TNMhXj9ZO169eZjoCmCA"
         },
         {
@@ -464,6 +482,15 @@
       "cover_image_url": "https://neodb.social/m/movie/2021/09/1515883a02-3c7c-462f-875d-a6b740e9853e.jpg",
       "external_resources": [
         {
+          "url": "https://www.wikidata.org/wiki/Q2279734"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt0301083/"
+        },
+        {
+          "url": "https://bgm.tv/subject/1942"
+        },
+        {
           "url": "https://movie.douban.com/subject/3117778/"
         },
         {
@@ -490,6 +517,12 @@
         },
         {
           "url": "https://bgm.tv/subject/500"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt0113824/"
+        },
+        {
+          "url": "https://www.wikidata.org/wiki/Q842292"
         }
       ],
       "created_time": "2019-07-16T13:54:00Z"
@@ -505,10 +538,16 @@
       "cover_image_url": "https://neodb.social/m/movie/2021/09/153b498876-70c9-4efc-b123-85c0b30f02ed.jpg",
       "external_resources": [
         {
-          "url": "https://www.themoviedb.org/movie/92321"
+          "url": "https://www.wikidata.org/wiki/Q89913709"
+        },
+        {
+          "url": "https://www.imdb.com/title/tt2061702/"
         },
         {
           "url": "https://bgm.tv/subject/12544"
+        },
+        {
+          "url": "https://www.themoviedb.org/movie/92321"
         },
         {
           "url": "https://movie.douban.com/subject/5989818/"
@@ -618,6 +657,9 @@
           "url": "https://movie.douban.com/subject/6786002/"
         },
         {
+          "url": "https://www.wikidata.org/wiki/Q595"
+        },
+        {
           "url": "https://www.imdb.com/title/tt1675434/"
         },
         {
@@ -634,5 +676,5 @@
     }
   ],
   "total_count": 29,
-  "last_updated": "2025-08-21T00:58:39.569Z"
+  "last_updated": "2025-08-22T00:59:40.330Z"
 }
