@@ -64,13 +64,16 @@
         "url": "https://www.douban.com/game/26791492/"
       },
       {
-        "url": "https://store.steampowered.com/app/289070"
-      },
-      {
         "url": "https://bgm.tv/subject/182389"
       },
       {
         "url": "https://eggplant.place/game/5SR2ibIHN47vjR0mPnoL8c"
+      },
+      {
+        "url": "https://www.wikidata.org/wiki/Q24050047"
+      },
+      {
+        "url": "https://store.steampowered.com/app/289070"
       },
       {
         "url": "https://www.igdb.com/games/sid-meiers-civilization-vi"
@@ -109,6 +112,12 @@
         "url": "https://bgm.tv/subject/66198"
       },
       {
+        "url": "https://www.wikidata.org/wiki/Q4267401"
+      },
+      {
+        "url": "https://www.igdb.com/games/the-witcher-3-wild-hunt"
+      },
+      {
         "url": "https://eggplant.place/game/7WrX4RREE5EzLuc8dqYovU"
       },
       {
@@ -122,8 +131,8 @@
     "category": "game",
     "type": "Game",
     "uuid": "3tG2B56IkhfkA82ZYJ34EK",
-    "rating": 9.1,
-    "rating_count": 130,
+    "rating": 9,
+    "rating_count": 131,
     "cover_image_url": "https://neodb.social/m/item/steam/2023/09/10/d3374484-f8e1-40c0-8f00-7fc1d1bf6d2b.jpg",
     "external_resources": [
       {
@@ -134,6 +143,12 @@
       },
       {
         "url": "https://bgm.tv/subject/138967"
+      },
+      {
+        "url": "https://www.wikidata.org/wiki/Q22344573"
+      },
+      {
+        "url": "https://www.igdb.com/games/dont-starve-together"
       }
     ]
   },
@@ -159,7 +174,7 @@
     "type": "Game",
     "uuid": "20NJSQLswiorrvgSaEx9s5",
     "rating": 9.1,
-    "rating_count": 377,
+    "rating_count": 378,
     "cover_image_url": "https://neodb.social/m/item/game/2024/12/20/2a53f405-bf32-44c7-8c91-1e91d7345720.jpg",
     "external_resources": [
       {
@@ -173,12 +188,6 @@
       },
       {
         "url": "https://neodb.deadvey.com/game/7WnzwfY8VzlZsdkjZOssKA"
-      },
-      {
-        "url": "https://store.steampowered.com/app/413150"
-      },
-      {
-        "url": "https://www.igdb.com/games/stardew-valley"
       }
     ]
   },
