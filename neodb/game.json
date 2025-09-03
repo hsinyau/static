@@ -15,6 +15,33 @@
     ]
   },
   {
+    "title": "黑神话：悟空",
+    "description": "《黑神话：悟空》是一款以中国神话为背景的动作角色扮演游戏。故事取材于中国古典小说“四大名著”之一的《西游记》。你将扮演一位“天命人”，为了探寻昔日传说的真相，踏上一条充满危险与惊奇的西游之路。\n\n• 雄奇壮丽，光怪陆离\n别有世间曾未见，一行一步一花新。欢迎来到亦真亦幻的东方魔幻世界！\n天命人将前往多个引人入胜又风格迥异的西游故地，再次谱写前所未见的冒险史诗。\n\n• 妖魔鬼怪，卷土重来\n行者名声大，魔王手段强。《西游记》的一大看点，便是各有所长的厉害妖怪。\n西行的旅途并非只有风光旖旎，天命人还将遭遇许多强大的敌人与可敬的对手，与他们豪快战斗，至死方休。\n\n• 山摇地动，各显神通\n炼就长生多少法，学来变化广无边。五光十色又相生相克的法术、变化与法宝，一直都是中国神话中最为招牌的战斗要素。\n天命人除了精通不同棍术，更可自由搭配多样化的法术、变化、天赋、武器与披挂，找到最契合自身战斗风格的制胜之道。\n\n• 千形万象，荡气回肠\n六般体相六般兵，六样形骸六样情。敌人的凶恶狡猾只是表象，他们的来历、个性与动机，往往更加耐人寻味。\n天命人在战斗之外，也会探寻各色人物背后的故事，了解他们的爱与恨，贪与嗔，前世与今生。",
+    "category": "game",
+    "type": "Game",
+    "uuid": "2fbcMAaC9Nhr2HhDH6BtCO",
+    "rating": 7.5,
+    "rating_count": 130,
+    "cover_image_url": "https://neodb.social/m/item/game/2024/12/20/bf90a214-e194-4446-a0e3-944cf4f8d9da.jpg",
+    "external_resources": [
+      {
+        "url": "https://bgm.tv/subject/313495"
+      },
+      {
+        "url": "https://store.steampowered.com/app/2358720"
+      },
+      {
+        "url": "https://www.douban.com/game/35184766/"
+      },
+      {
+        "url": "https://www.wikidata.org/wiki/Q98582386"
+      },
+      {
+        "url": "https://www.igdb.com/games/black-myth-wukong"
+      }
+    ]
+  },
+  {
     "title": "潜水员戴夫",
     "description": "欢迎访问以神秘蓝洞为背景的海洋冒险游戏【潜水员戴夫 DAVE THE DIVER】。 白天在美丽的大海里打鱼，晚上经营寿司店赚钱。 伴随着个性强的同事们的故事展开的海底谜团。神秘又崭新的乐趣正在等着您！",
     "category": "game",
@@ -164,6 +191,24 @@
     "external_resources": [
       {
         "url": "https://www.douban.com/game/26324780/"
+      }
+    ]
+  },
+  {
+    "title": "极限竞速：地平线4",
+    "description": "《极限竞速 地平线4》已确认在今年 10 月 2 日发售。首发车种 450 台，无需全程联网，玩家可以离线游戏，在 Xbox One X 运行游戏可以达到 60 帧。此次游戏终极版将包含资料片内容，无需单独购买。",
+    "category": "game",
+    "type": "Game",
+    "uuid": "6iBnB0EJDN7kg28spaFqY9",
+    "rating": 9.2,
+    "rating_count": 62,
+    "cover_image_url": "https://neodb.social/m/item/doubangame/2024/07/16/e0e9cef8-f4d3-4397-9070-3c2303723d3f.jpg",
+    "external_resources": [
+      {
+        "url": "https://www.douban.com/game/30243041/"
+      },
+      {
+        "url": "https://eggplant.place/game/0lcLYZ2BhyNNq1f49EpiyE"
       }
     ]
   },
