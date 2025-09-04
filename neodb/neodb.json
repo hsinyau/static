@@ -51,7 +51,7 @@
       "type": "Game",
       "uuid": "2fbcMAaC9Nhr2HhDH6BtCO",
       "rating": 7.5,
-      "rating_count": 130,
+      "rating_count": 131,
       "cover_image_url": "https://neodb.social/m/item/game/2024/12/20/bf90a214-e194-4446-a0e3-944cf4f8d9da.jpg",
       "external_resources": [
         {
@@ -324,7 +324,7 @@
       "type": "Movie",
       "uuid": "3QjgE0V4yaQGbcjGtpvRIz",
       "rating": 8.5,
-      "rating_count": 2484,
+      "rating_count": 2485,
       "cover_image_url": "https://neodb.social/m/item/fedi/2025/01/20/9af3d23c-62c9-4794-a514-bd3f69ed9f76.jpg",
       "external_resources": [
         {
@@ -512,7 +512,7 @@
       "type": "Game",
       "uuid": "20NJSQLswiorrvgSaEx9s5",
       "rating": 9.1,
-      "rating_count": 383,
+      "rating_count": 384,
       "cover_image_url": "https://neodb.social/m/item/game/2024/12/20/2a53f405-bf32-44c7-8c91-1e91d7345720.jpg",
       "external_resources": [
         {
@@ -540,7 +540,7 @@
       "type": "Game",
       "uuid": "3nlre4F8eEavtJNAgjt602",
       "rating": 8.7,
-      "rating_count": 286,
+      "rating_count": 287,
       "cover_image_url": "https://neodb.social/m/item/doubangame/2024/07/16/9e21e897-002e-488e-9ca8-9cc282cb1965.jpg",
       "external_resources": [
         {
@@ -600,7 +600,7 @@
       "type": "Movie",
       "uuid": "3BU3rgfjc2PaymhsN2rxwO",
       "rating": 8.7,
-      "rating_count": 1914,
+      "rating_count": 1915,
       "cover_image_url": "https://neodb.social/m/movie/2021/09/140ecda37d-fab5-4d1d-9270-1ded9d5cc0d5.jpg",
       "external_resources": [
         {
@@ -892,5 +892,5 @@
     }
   ],
   "total_count": 38,
-  "last_updated": "2025-09-03T09:51:42.749Z"
+  "last_updated": "2025-09-04T00:55:36.769Z"
 }
