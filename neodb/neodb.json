@@ -7,7 +7,7 @@
       "type": "Movie",
       "uuid": "1vsedg65CG0GhS8EpZB5K7",
       "rating": 8.7,
-      "rating_count": 2108,
+      "rating_count": 2109,
       "cover_image_url": "https://neodb.social/m/movie/2021/09/14e442937b-efaf-4a42-99b9-4f867d2250f2.jpg",
       "external_resources": [
         {
@@ -50,8 +50,8 @@
       "category": "game",
       "type": "Game",
       "uuid": "2fbcMAaC9Nhr2HhDH6BtCO",
-      "rating": 7.5,
-      "rating_count": 132,
+      "rating": 7.6,
+      "rating_count": 133,
       "cover_image_url": "https://neodb.social/m/item/game/2024/12/20/bf90a214-e194-4446-a0e3-944cf4f8d9da.jpg",
       "external_resources": [
         {
@@ -892,5 +892,5 @@
     }
   ],
   "total_count": 38,
-  "last_updated": "2025-09-08T01:00:22.555Z"
+  "last_updated": "2025-09-09T00:57:49.725Z"
 }
