@@ -7,7 +7,7 @@
       "type": "Movie",
       "uuid": "1vsedg65CG0GhS8EpZB5K7",
       "rating": 8.7,
-      "rating_count": 2109,
+      "rating_count": 2108,
       "cover_image_url": "https://neodb.social/m/movie/2021/09/14e442937b-efaf-4a42-99b9-4f867d2250f2.jpg",
       "external_resources": [
         {
@@ -324,7 +324,7 @@
       "type": "Movie",
       "uuid": "3QjgE0V4yaQGbcjGtpvRIz",
       "rating": 8.5,
-      "rating_count": 2487,
+      "rating_count": 2486,
       "cover_image_url": "https://neodb.social/m/item/fedi/2025/01/20/9af3d23c-62c9-4794-a514-bd3f69ed9f76.jpg",
       "external_resources": [
         {
@@ -540,7 +540,7 @@
       "type": "Game",
       "uuid": "3nlre4F8eEavtJNAgjt602",
       "rating": 8.7,
-      "rating_count": 287,
+      "rating_count": 288,
       "cover_image_url": "https://neodb.social/m/item/doubangame/2024/07/16/9e21e897-002e-488e-9ca8-9cc282cb1965.jpg",
       "external_resources": [
         {
@@ -600,7 +600,7 @@
       "type": "Movie",
       "uuid": "3BU3rgfjc2PaymhsN2rxwO",
       "rating": 8.7,
-      "rating_count": 1916,
+      "rating_count": 1917,
       "cover_image_url": "https://neodb.social/m/movie/2021/09/140ecda37d-fab5-4d1d-9270-1ded9d5cc0d5.jpg",
       "external_resources": [
         {
@@ -803,7 +803,7 @@
       "type": "Edition",
       "uuid": "1507MObx3eT8c2yc025PDE",
       "rating": 9.1,
-      "rating_count": 393,
+      "rating_count": 392,
       "cover_image_url": "https://neodb.social/m/book/2021/09/153cd2a18a-bfb2-4785-be50-e41c54dccb9d.jpg",
       "external_resources": [
         {
@@ -819,7 +819,7 @@
       "type": "Movie",
       "uuid": "0Wl134TQb5X1u1RzgwWEJu",
       "rating": 8.5,
-      "rating_count": 1473,
+      "rating_count": 1474,
       "cover_image_url": "https://neodb.social/m/movie/2021/09/13f4776543-a590-45c4-8e85-3eceae9d73b1.jpg",
       "external_resources": [
         {
@@ -892,5 +892,5 @@
     }
   ],
   "total_count": 38,
-  "last_updated": "2025-09-09T00:57:49.725Z"
+  "last_updated": "2025-09-10T00:56:25.351Z"
 }
