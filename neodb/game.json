@@ -113,8 +113,8 @@
     "category": "game",
     "type": "Game",
     "uuid": "1ig6NellpqSGtjmIK08mDD",
-    "rating": 8.1,
-    "rating_count": 42,
+    "rating": 8.2,
+    "rating_count": 43,
     "cover_image_url": "https://neodb.social/m/item/doubangame/2024/07/16/79140246-f0de-4887-b983-41c39630cb0c.jpg",
     "external_resources": [
       {
@@ -227,6 +227,9 @@
       },
       {
         "url": "https://neodb.deadvey.com/game/7WnzwfY8VzlZsdkjZOssKA"
+      },
+      {
+        "url": "https://store.steampowered.com/app/413150"
       },
       {
         "url": "https://neo.agnos.is/game/0uqzvIqfwy1QYODIg7yuJl"
