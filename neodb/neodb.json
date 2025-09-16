@@ -7,7 +7,7 @@
       "type": "Movie",
       "uuid": "1vsedg65CG0GhS8EpZB5K7",
       "rating": 8.7,
-      "rating_count": 2111,
+      "rating_count": 2112,
       "cover_image_url": "https://neodb.social/m/movie/2021/09/14e442937b-efaf-4a42-99b9-4f867d2250f2.jpg",
       "external_resources": [
         {
@@ -79,7 +79,7 @@
       "type": "TVSeason",
       "uuid": "0273T1QHVTwO5T5rQfgzu3",
       "rating": 7.9,
-      "rating_count": 588,
+      "rating_count": 590,
       "cover_image_url": "https://neodb.social/m/item/doubanmovie/2023/03/27/dfb09ee2-07fb-49d7-a1f6-e0af700123d2.jpg",
       "external_resources": [
         {
@@ -95,7 +95,7 @@
       "type": "TVSeason",
       "uuid": "4x471bhiZmxy6AJmdl86A3",
       "rating": 8,
-      "rating_count": 451,
+      "rating_count": 453,
       "cover_image_url": "https://neodb.social/m/item/doubanmovie/2023/05/11/7835d2ff-7805-4d36-8093-92e9fd113cf6.jpg",
       "external_resources": [
         {
@@ -324,7 +324,7 @@
       "type": "Movie",
       "uuid": "3QjgE0V4yaQGbcjGtpvRIz",
       "rating": 8.5,
-      "rating_count": 2490,
+      "rating_count": 2491,
       "cover_image_url": "https://neodb.social/m/item/fedi/2025/01/20/9af3d23c-62c9-4794-a514-bd3f69ed9f76.jpg",
       "external_resources": [
         {
@@ -743,7 +743,7 @@
       "type": "TVSeason",
       "uuid": "4GTQIEjlriHa1bhMi3fpgD",
       "rating": 9.5,
-      "rating_count": 496,
+      "rating_count": 497,
       "cover_image_url": "https://neodb.social/m/item/tmdb_tvseason/2024/11/28/44528d7e-1364-4c34-8e61-d26e57bba8c8.jpg",
       "external_resources": [
         {
@@ -822,7 +822,7 @@
       "type": "Movie",
       "uuid": "0Wl134TQb5X1u1RzgwWEJu",
       "rating": 8.5,
-      "rating_count": 1476,
+      "rating_count": 1477,
       "cover_image_url": "https://neodb.social/m/movie/2021/09/13f4776543-a590-45c4-8e85-3eceae9d73b1.jpg",
       "external_resources": [
         {
@@ -895,5 +895,5 @@
     }
   ],
   "total_count": 38,
-  "last_updated": "2025-09-15T01:01:06.532Z"
+  "last_updated": "2025-09-16T00:56:23.497Z"
 }
