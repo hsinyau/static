@@ -44,7 +44,7 @@ jobs:
           echo "$deleted_files"
           
           # 过滤出指定文件夹的文件
-          # 只保留 emoji、footprints、moments、neodb、vsco 文件夹下的文件
+          # 只保留 emoji、footprints、moments、neodb、vsco、instagram 文件夹下的文件
           filtered_changed_files=""
           filtered_deleted_files=""
           
@@ -54,7 +54,7 @@ jobs:
             if [[ -n "$file" ]]; then
               echo "Processing: $file"
               # 检查文件是否在指定文件夹中
-              if [[ "$file" =~ ^(emoji|footprints|moments|neodb|vsco)/ ]]; then
+              if [[ "$file" =~ ^(emoji|footprints|moments|neodb|vsco|instagram)/ ]]; then
                 filtered_changed_files="$filtered_changed_files$file"$'\n'
                 echo "  -> MATCHED: $file"
               else
@@ -69,7 +69,7 @@ jobs:
             if [[ -n "$file" ]]; then
               echo "Processing: $file"
               # 检查文件是否在指定文件夹中
-              if [[ "$file" =~ ^(emoji|footprints|moments|neodb|vsco)/ ]]; then
+              if [[ "$file" =~ ^(emoji|footprints|moments|neodb|vsco|instagram)/ ]]; then
                 filtered_deleted_files="$filtered_deleted_files$file"$'\n'
                 echo "  -> MATCHED: $file"
               else
