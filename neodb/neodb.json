@@ -603,7 +603,7 @@
       "type": "Movie",
       "uuid": "3BU3rgfjc2PaymhsN2rxwO",
       "rating": 8.7,
-      "rating_count": 1919,
+      "rating_count": 1920,
       "cover_image_url": "https://neodb.social/m/movie/2021/09/140ecda37d-fab5-4d1d-9270-1ded9d5cc0d5.jpg",
       "external_resources": [
         {
@@ -681,10 +681,10 @@
           "url": "https://eggplant.place/movie/2je32snurRd73ZAxhHz4UM"
         },
         {
-          "url": "https://www.wikidata.org/wiki/Q842292"
+          "url": "https://movie.douban.com/subject/1297052/"
         },
         {
-          "url": "https://movie.douban.com/subject/1297052/"
+          "url": "https://www.wikidata.org/wiki/Q842292"
         }
       ],
       "created_time": "2019-07-16T13:54:00Z"
@@ -895,5 +895,5 @@
     }
   ],
   "total_count": 38,
-  "last_updated": "2025-09-17T00:56:07.117Z"
+  "last_updated": "2025-09-18T00:55:58.867Z"
 }
