@@ -562,7 +562,7 @@
       "type": "Edition",
       "uuid": "1AT5MpqfRMd4wEeOE1uGIF",
       "rating": 9.1,
-      "rating_count": 1187,
+      "rating_count": 1188,
       "cover_image_url": "https://neodb.social/m/book/2021/09/1360f4c4c2-6b01-4adf-ad2b-3d202ff12ab2.jpg",
       "external_resources": [
         {
@@ -895,5 +895,5 @@
     }
   ],
   "total_count": 38,
-  "last_updated": "2025-09-19T00:58:05.782Z"
+  "last_updated": "2025-09-20T00:54:56.592Z"
 }
