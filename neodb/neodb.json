@@ -246,7 +246,7 @@
       "type": "TVSeason",
       "uuid": "43S6M97r8dEUZ9QF6WDnNQ",
       "rating": 9,
-      "rating_count": 612,
+      "rating_count": 613,
       "cover_image_url": "https://neodb.social/m/movie/2021/09/157ef5c209-ffb5-46c4-ad9b-69c531504019.jpg",
       "external_resources": [
         {
@@ -743,7 +743,7 @@
       "type": "TVSeason",
       "uuid": "4GTQIEjlriHa1bhMi3fpgD",
       "rating": 9.5,
-      "rating_count": 497,
+      "rating_count": 498,
       "cover_image_url": "https://neodb.social/m/item/tmdb_tvseason/2024/11/28/44528d7e-1364-4c34-8e61-d26e57bba8c8.jpg",
       "external_resources": [
         {
@@ -895,5 +895,5 @@
     }
   ],
   "total_count": 38,
-  "last_updated": "2025-09-21T01:02:13.471Z"
+  "last_updated": "2025-09-22T01:01:47.920Z"
 }
